@@ -28,18 +28,6 @@
             "tsConfig": "projects/gentleman-state-manager/tsconfig.spec.json",
             "karmaConfig": "projects/gentleman-state-manager/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/gentleman-state-manager/tsconfig.lib.json",
-              "projects/gentleman-state-manager/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     }},
